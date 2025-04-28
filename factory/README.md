@@ -1,6 +1,8 @@
 
 🌟 What is the Factory Design Pattern?
-The Factory Design Pattern is a creational design pattern that creates objects without exposing the creation logic to the client. Instead, it uses a factory method to create the object.
+
+	The Factory Design Pattern is a creational design pattern that creates objects without exposing the creation logic to the client. 
+ 	Instead, it uses a factory method to create the object.
 
 👉 In simple words:
 
