@@ -42,8 +42,8 @@ If you find yourself writing a lot of "if-else" or "switch-case" statements to s
 
 ## Strategy Design Pattern — Mock Interview Questions and Answers
 1. What problem does the Strategy Pattern solve?
-It solves the problem of having multiple algorithms or behaviors inside a class and changing them dynamically at runtime without modifying the class that uses them.
-It promotes Open/Closed Principle — classes are open for extension but closed for modification.
+    It solves the problem of having multiple algorithms or behaviors inside a class and changing them dynamically at runtime without modifying the class that uses them.
+    It promotes Open/Closed Principle — classes are open for extension but closed for modification.
 
 2. In which scenarios would you not use the Strategy Pattern?
 You should avoid Strategy Pattern when:
@@ -57,13 +57,13 @@ You should avoid Strategy Pattern when:
     - Runtime selection adds no significant value.
  
 3. What are real-world systems or libraries that use the Strategy Pattern internally?
-- Sorting algorithms: Java's Comparator and C#'s IComparer use strategy-like behavior.
+    - Sorting algorithms: Java's Comparator and C#'s IComparer use strategy-like behavior.
 
-- Authentication handlers: ASP.NET Core Authentication Middlewares (JWT, OAuth, Cookie Auth) dynamically select strategy for auth.
+    - Authentication handlers: ASP.NET Core Authentication Middlewares (JWT, OAuth, Cookie Auth) dynamically select strategy for auth.
 
-- Payment gateways: Stripe, Razorpay, etc., allow different payment strategies.
+    - Payment gateways: Stripe, Razorpay, etc., allow different payment strategies.
 
-- Compression libraries: Zip, RAR, 7z handling can use Strategy for compressing files.
+    - Compression libraries: Zip, RAR, 7z handling can use Strategy for compressing files.
 
 
 
