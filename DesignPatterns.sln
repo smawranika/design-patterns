@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Sing
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Adapter\Adapter.csproj", "{DCE1A4E8-0434-4BCE-94CB-0A5C11F5EAF1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircuitBreaker", "CircuitBreaker\CircuitBreaker.csproj", "{D6774AB6-8254-4D04-8632-E91E6AA9DBFA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{DCE1A4E8-0434-4BCE-94CB-0A5C11F5EAF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DCE1A4E8-0434-4BCE-94CB-0A5C11F5EAF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DCE1A4E8-0434-4BCE-94CB-0A5C11F5EAF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6774AB6-8254-4D04-8632-E91E6AA9DBFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6774AB6-8254-4D04-8632-E91E6AA9DBFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6774AB6-8254-4D04-8632-E91E6AA9DBFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6774AB6-8254-4D04-8632-E91E6AA9DBFA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
